@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "my_pihole_net",
+        "Id": "adc464a2f4134080867c2e3a845fb39a2a22babf1a160ae1d79091f2f86e21c4",
+        "Created": "2026-05-29T18:36:41.053480048-04:00",
+        "Scope": "local",
+        "Driver": "macvlan",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "192.168.1.0/24",
+                    "IPRange": "",
+                    "Gateway": "192.168.1.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "parent": "eno1"
+        },
+        "Labels": {},
+        "Containers": {
+            "9b2aca9efe16cac6ca886de594016a5212cafe35501551c03e61192907b6a3a4": {
+                "Name": "pihole",
+                "EndpointID": "0648e5c87acb8cd2e3728d551f5254677992ffa6985deb8748b120b775ff4f23",
+                "MacAddress": "3a:a7:4f:e7:dd:7d",
+                "IPv4Address": "192.168.1.250/24",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "192.168.1.0/24": {
+                        "IPsInUse": 4,
+                        "DynamicIPsAvailable": 252
+                    }
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,8 @@
+[Unit]
+Description=Bitcoin Knots Verified Update Check
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=e
+ExecStart=/home/e/knots-updater/update.sh

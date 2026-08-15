@@ -1,0 +1,6 @@
+CONTAINER ID   IMAGE                                COMMAND                  CREATED        STATUS                 PORTS                      NAMES
+cb2693bc48b9   gcr.io/cadvisor/cadvisor:latest      "/usr/bin/cadvisor -…"   2 months ago   Up 3 weeks (healthy)   127.0.0.1:8090->8080/tcp   cadvisor
+9bf5208c6db2   pawelmalak/flame:latest              "docker-entrypoint.s…"   2 months ago   Up 3 weeks             127.0.0.1:5005->5005/tcp   flame
+35066710a4e8   searxng/searxng:latest               "/usr/local/searxng/…"   2 months ago   Up 3 weeks             127.0.0.1:8080->8080/tcp   searxng
+065a943de1e4   ghcr.io/open-webui/open-webui:main   "bash start.sh"          2 months ago   Up 3 weeks (healthy)   127.0.0.1:3000->8080/tcp   open-webui
+9b2aca9efe16   pihole/pihole:latest                 "start.sh"               2 months ago   Up 3 weeks (healthy)                              pihole

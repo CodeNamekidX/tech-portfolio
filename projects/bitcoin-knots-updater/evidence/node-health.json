@@ -1,0 +1,18 @@
+{
+  "chain": "main",
+  "blocks": 961635,
+  "headers": 961635,
+  "bestblockhash": "00000000000000000000c705b7a0a847d2713d73da4a1b20cea3dfdd617fa651",
+  "bits": "1702353d",
+  "target": "00000000000000000002353d0000000000000000000000000000000000000000",
+  "difficulty": 127479855693691.4,
+  "time": 1786526307,
+  "mediantime": 1786217311,
+  "verificationprogress": 0.9989497384375901,
+  "initialblockdownload": false,
+  "chainwork": "00000000000000000000000000000000000000013dfe579c00fc3b55e7979314",
+  "size_on_disk": 866096282507,
+  "pruned": false,
+  "warnings": [
+  ]
+}

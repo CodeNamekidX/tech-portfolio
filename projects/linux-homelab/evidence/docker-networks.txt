@@ -1,0 +1,7 @@
+NETWORK ID     NAME            DRIVER    SCOPE
+393245a84645   bridge          bridge    local
+b526b3b0165d   homelab         bridge    local
+e19dfcbd5733   host            host      local
+4350f7f8e9e0   monitoring      bridge    local
+adc464a2f413   my_pihole_net   macvlan   local
+092c69dc5b3a   none            null      local

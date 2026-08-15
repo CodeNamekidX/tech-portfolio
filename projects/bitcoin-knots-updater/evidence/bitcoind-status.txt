@@ -1,0 +1,13 @@
+● bitcoind.service - Bitcoin Core Daemon (Knots)
+     Loaded: loaded (/etc/systemd/system/bitcoind.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-08-04 00:38:31 EDT; 1 week 3 days ago
+   Main PID: 3827495 (bitcoind)
+      Tasks: 27 (limit: 7727)
+     Memory: 888.8M (peak: 5.2G swap: 421.9M swap peak: 476.5M)
+        CPU: 3h 20min 43.764s
+     CGroup: /system.slice/bitcoind.service
+             └─3827495 /usr/local/bin/bitcoind -daemonwait -datadir=/home/e/.bitcoin
+
+Aug 04 00:38:23 e-ThinkCentre-M920q systemd[1]: Starting bitcoind.service - Bitcoin Core Daemon (Knots)...
+Aug 04 00:38:31 e-ThinkCentre-M920q bitcoind[3827494]: Bitcoin Knots starting
+Aug 04 00:38:31 e-ThinkCentre-M920q systemd[1]: Started bitcoind.service - Bitcoin Core Daemon (Knots).

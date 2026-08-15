@@ -1,0 +1,10 @@
+IMAGE                                                      ID             DISK USAGE   CONTENT SIZE   EXTRA
+gcr.io/cadvisor/cadvisor:latest                            3de2bd520312        107MB         30.8MB   U    
+ghcr.io/montejojorge/bitcoin-node-dashboard:1.0.0-beta.2   b51711582561        165MB         38.9MB        
+ghcr.io/montejojorge/bitcoin-node-dashboard:latest         b51711582561        165MB         38.9MB        
+ghcr.io/open-webui/open-webui:main                         74093dadc9c6        6.7GB         1.72GB   U    
+grafana/grafana:latest                                     5dad0df181cb       1.47GB          352MB        
+pawelmalak/flame:latest                                    7a5edc859235        357MB         70.5MB   U    
+pihole/pihole:latest                                       70a9c11171de        147MB         42.3MB   U    
+prom/prometheus:latest                                     69f524141883        593MB          156MB        
+searxng/searxng:latest                                     0b58c1934297        375MB         96.5MB   U    
